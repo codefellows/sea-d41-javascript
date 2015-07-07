@@ -1,0 +1,21 @@
+{
+  "name": "gulp-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2",
+    "mocha": "^2.2.5"
+  }
+}
