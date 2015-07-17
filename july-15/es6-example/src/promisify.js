@@ -3,7 +3,6 @@ let fs = require('fs');
 function readFile(file) { 
   return new Promise((resolve, refute) => {
     fs.readFile(file, (err, data) => {
-      console.log(data)
       return err ? refute(err) : resolve(data);
     })
   });
@@ -12,6 +11,13 @@ function readFile(file) {
 readFile('./promisify.js').then( (data) => {
     console.log(data.toString());
 })
+
+let myFilePrintout = readfile('./block-scope.js');
+
+myFilePrintout.then( (data) => {
+    console.log(data.toString());
+})
+
 
 /*
 readFile('./promisify.js').then( (data) =>
