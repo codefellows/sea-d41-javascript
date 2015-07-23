@@ -1,0 +1,16 @@
+{
+  "name": "student-status",
+  "version": "1.0.0",
+  "description": "an app for students to state how they are feeling about a lecture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CADBOT",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mongoose": "^4.0.8"
+  }
+}
